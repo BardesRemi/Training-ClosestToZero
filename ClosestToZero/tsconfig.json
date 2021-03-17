@@ -1,6 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "esnext",
-      "watch": true
-    }
-  }
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "outDir": "./build"
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
